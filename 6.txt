@@ -9,18 +9,18 @@ int[] divisor;
 int[] rem;
 int[] crc;
 System.out.println("Enter number of data bits : ");
-data_bits=Integer.parseInt(br.readLine());
+    int data_bits = Integer.parseInt(br.readLine());
 data=new int[data_bits];
 System.out.println("Enter data bits : ");
 for(int i=0; i<data_bits; i++)
 data[i]=Integer.parseInt(br.readLine());
 System.out.println("Enter number of bits in divisor : ");
-divisor_bits=Integer.parseInt(br.readLine());
+    int divisor_bits = Integer.parseInt(br.readLine());
 divisor=new int[divisor_bits];
 System.out.println("Enter Divisor bits : ");
 for(int i=0; i<divisor_bits; i++)
 divisor[i]=Integer.parseInt(br.readLine());
-tot_length=data_bits+divisor_bits-1;
+    int tot_length = data_bits+divisor_bits-1;
 div=new int[tot_length];
 rem=new int[tot_length];
 crc=new int[tot_length];
