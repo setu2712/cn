@@ -1,3 +1,4 @@
+import java.util.*;
 class crc {
 public static void main(String args[]) {
 Scanner scan = new Scanner(System.in);
@@ -35,7 +36,6 @@ System.out.println("Enter bit number " + (sent_data.length-i)
 + ":");
 sent_data[i] = scan.nextInt();
 }
-receive(sent_data, divisor);
 }
 static int[] divide(int old_data[], int divisor[]) {
 int remainder[] , i;
@@ -79,4 +79,5 @@ return;
 }
 }
 System.out.println("Data was received without any error.");
+}
 }
