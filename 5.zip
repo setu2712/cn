@@ -31,8 +31,6 @@ if (cnt < p_size)
 {
 System.out.print("packet " +packets[cnt++] + " drained out");
 System.out.println();
-21CS52 COMPUTER NETWORKS LAB MANUAL
-Sapthagiri College of Engineering Page 37
 }
 else
 break ;
