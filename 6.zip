@@ -43,8 +43,6 @@ crc[i]=(div[i]^rem[i]);
 }
 System.out.println();
 System.out.println("CRC code : ");
-21CS52 COMPUTER NETWORKS LAB MANUAL
-Sapthagiri College of Engineering Page 28
 for(int i=0;i<crc.length;i++)
 System.out.print(crc[i]);
 /*-------------------ERROR DETECTION---------------------*/
